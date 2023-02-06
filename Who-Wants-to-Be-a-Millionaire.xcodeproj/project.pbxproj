@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97CAC4092991126500B67E6B /* QuestionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CAC4082991126500B67E6B /* QuestionButton.swift */; };
+		97CAC40C299113EB00B67E6B /* ChooseQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CAC40B299113EB00B67E6B /* ChooseQuestionViewController.swift */; };
+		97CAC40E299113FB00B67E6B /* ChooseQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CAC40D299113FB00B67E6B /* ChooseQuestionView.swift */; };
 		D7F18D6B298EE7F100695AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F18D6A298EE7F100695AE1 /* AppDelegate.swift */; };
 		D7F18D6D298EE7F100695AE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F18D6C298EE7F100695AE1 /* SceneDelegate.swift */; };
 		D7F18D6F298EE7F100695AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F18D6E298EE7F100695AE1 /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97CAC4082991126500B67E6B /* QuestionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionButton.swift; sourceTree = "<group>"; };
+		97CAC40B299113EB00B67E6B /* ChooseQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseQuestionViewController.swift; sourceTree = "<group>"; };
+		97CAC40D299113FB00B67E6B /* ChooseQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseQuestionView.swift; sourceTree = "<group>"; };
 		D7F18D67298EE7F000695AE1 /* Who-Wants-to-Be-a-Millionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who-Wants-to-Be-a-Millionaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F18D6A298EE7F100695AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F18D6C298EE7F100695AE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97CAC40A2991139800B67E6B /* ChooseQuestionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				97CAC40B299113EB00B67E6B /* ChooseQuestionViewController.swift */,
+				97CAC40D299113FB00B67E6B /* ChooseQuestionView.swift */,
+				97CAC4082991126500B67E6B /* QuestionButton.swift */,
+			);
+			path = ChooseQuestionViewController;
+			sourceTree = "<group>";
+		};
 		D7F18D5E298EE7F000695AE1 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +73,7 @@
 				D7F18D7F298EE86200695AE1 /* SupportingFiles */,
 				D7F18D7E298EE81C00695AE1 /* Application */,
 				D7F18D6E298EE7F100695AE1 /* ViewController.swift */,
+				97CAC40A2991139800B67E6B /* ChooseQuestionViewController */,
 			);
 			path = "Who-Wants-to-Be-a-Millionaire";
 			sourceTree = "<group>";
@@ -152,6 +169,9 @@
 			files = (
 				D7F18D6F298EE7F100695AE1 /* ViewController.swift in Sources */,
 				D7F18D6B298EE7F100695AE1 /* AppDelegate.swift in Sources */,
+				97CAC40C299113EB00B67E6B /* ChooseQuestionViewController.swift in Sources */,
+				97CAC40E299113FB00B67E6B /* ChooseQuestionView.swift in Sources */,
+				97CAC4092991126500B67E6B /* QuestionButton.swift in Sources */,
 				D7F18D6D298EE7F100695AE1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
