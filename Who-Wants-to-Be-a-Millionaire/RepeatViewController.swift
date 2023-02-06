@@ -9,15 +9,6 @@ import UIKit
 
 class RepeatViewController: UIViewController {
     
-    private let backgroundImage: UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "Frame 1")
-        imageView.contentMode = .scaleAspectFit
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        
-        return imageView
-    }()
-    
     private let gameIconImage: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "Image 1")
@@ -72,7 +63,7 @@ class RepeatViewController: UIViewController {
     }
     
     private func setupViews() {
-        view.addSubview(backgroundImage)
+        view.layer.contents = #imageLiteral(resourceName: "Frame 1").cgImage
         
         labelsStackView = UIStackView(
             arrangedSubviews: [gameIconImage, infoLoseLabel, loseLabel],
@@ -89,13 +80,6 @@ class RepeatViewController: UIViewController {
     }
     
     private func setConstraints() {
-        
-        NSLayoutConstraint.activate([
-            backgroundImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
-            backgroundImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
-            backgroundImage.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
-            backgroundImage.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
-        ])
         
         NSLayoutConstraint.activate([
             labelsStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
